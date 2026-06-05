@@ -18,17 +18,16 @@ tr,td{
 	vertical-align: middle;
 	user-select: none;
 	
-	width: clamp(45px, 12vw, 65px);
-    height: clamp(45px, 12vw, 65px);
+	width: clamp(38px, 11vw, 45px);
+    height: clamp(38px, 11vw, 45px);
     
-    font-size: clamp(0.9rem, 3vw, 1.15rem);
+    font-size: clamp(0.85rem, 2.5vw, 1rem);
     border: 1px solid #eee;
 }
 td.busy{
 	background-color: rgba(255,0,0,.7);
 }
 .month-header h2{
-	color: red;
 	display: flex;
 	font-size: clamp(1.5rem, 5vw, 2rem);
 	gap: 40px;
