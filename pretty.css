@@ -15,18 +15,21 @@ table{
 tr,td{
 	background-color: white;
 	text-align: center;
-	vertical-align: center;
-	width: 65px;
-	height: 65px;
-	font-size:1.15rem;
+	vertical-align: middle;
 	user-select: none;
+	
+	width: clamp(45px, 12vw, 65px);
+    height: clamp(45px, 12vw, 65px);
+    
+    font-size: clamp(0.9rem, 3vw, 1.15rem);
+    border: 1px solid #eee;
 }
 td.busy{
 	background-color: rgba(255,0,0,.7);
 }
 .month-header h2{
 	display: flex;
-	font-size: 2rem;
+	font-size: clamp(1.5rem, 5vw, 2rem);
 	gap: 40px;
 }
 .arrow{
