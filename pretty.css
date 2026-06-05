@@ -35,6 +35,8 @@ td.busy{
 .arrow{
 	color: gray;
 	user-select: none;
+	padding: 5px 25px; 
+    display: inline-block;
 }
 .arrow.next, .arrow.prev{
 	cursor: pointer;
