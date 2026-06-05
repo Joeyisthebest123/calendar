@@ -46,6 +46,7 @@ a {
     background: ButtonFace; color: ButtonText;
     border-style: solid; border-width: 2px;
     border-color: ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight;
+    margin-top: clamp(25px, 5vh, 30px);
 }
 a:active {
     border-color: ButtonShadow ButtonHighlight ButtonHighlight ButtonShadow;
