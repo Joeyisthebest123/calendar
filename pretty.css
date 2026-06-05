@@ -1,0 +1,49 @@
+@charset "UTF-8";
+.month{
+	display: none;
+}
+.month.active{
+	display: flex;
+	align-items: center;
+	margin: auto;
+	flex-direction: column;
+}
+table{
+	border-collapse: collapse;
+	width: max-content;
+}
+tr,td{
+	background-color: white;
+	text-align: center;
+	vertical-align: center;
+	width: 65px;
+	height: 65px;
+	font-size:1.15rem;
+	user-select: none;
+}
+td.busy{
+	background-color: rgba(255,0,0,.7);
+}
+.month-header h2{
+	display: flex;
+	font-size: 2rem;
+	gap: 40px;
+}
+.arrow{
+	color: gray;
+	user-select: none;
+}
+.arrow.next, .arrow.prev{
+	cursor: pointer;
+	color: black;
+}
+a {
+    text-decoration: none; font: menu;
+    display: inline-block; padding: 2px 8px;
+    background: ButtonFace; color: ButtonText;
+    border-style: solid; border-width: 2px;
+    border-color: ButtonHighlight ButtonShadow ButtonShadow ButtonHighlight;
+}
+a:active {
+    border-color: ButtonShadow ButtonHighlight ButtonHighlight ButtonShadow;
+}
